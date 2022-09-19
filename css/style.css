@@ -105,7 +105,9 @@ dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+nav-link text-body small{
+ text-decoration: white;
+}
 ol ol,
 ul ul,
 ol ul,
