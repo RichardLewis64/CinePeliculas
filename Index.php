@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>CinePeliculas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="Contac.css">
+ 
+</head>
+    </head>
+    <body>
+    <script>
+        function myFunction() {
+          document.getElementById("Contact.js").innerHTML = "Contact.js.";
+        }
+        </script>
+    <div class="pagewrap">
+        <form class="form" id="form">
+          <h3 class="form__title">Login</h3>
+          <div class="container">
+            <input class="container__input" type="text" id="username" name="username" value="" required>
+            <label id="userLabel" for="username" class="container__label">Nombre Usuario</label>
+          </div>
+          <div class="container">
+            <input class="container__input" type="password" id="pass" name="password" value="" required>
+            <label id="passLabel" for="pass" class="container__label">Contraseña</label>
+          </div>
+          <button class="form__submit" id="submit" type="button" value="submit">Enviar</button>
+        </form>
+      </div>
+       <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Lunes, 19 de septiembre, 2022</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Anunciar</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body small" href="#">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right d-none d-md-block">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-auto mr-n2">
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-twitter"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-facebook-f"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-linkedin-in"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-instagram"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-google-plus-g"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-youtube"></small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Peliculas<span class="text-secondary font-weight-normal">Estrenos</span></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <a href="https://htmlcodex.com"><img class="img-fluid" src="Imagenes/Blog1.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-uppercase text-primary">Cine peliculas<span class="text-white font-weight-normal">Peliculas</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Casa</a>
+                    <a href="category.html" class="nav-item nav-link">Categoria</a>
+                    <a href="single.html" class="nav-item nav-link">single</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">Menu item 1</a>
+                            <a href="#" class="dropdown-item">Menu item 2</a>
+                            <a href="#" class="dropdown-item">Menu item 3</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                </div>
+                <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control border-0" placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+ <!-- Contact Start -->
+ <script>
+        function myFunction() {
+          document.getElementById("Contact.js").innerHTML = "Contact.js.";
+        }
+        </script>
+    <div class="pagewrap">
+        <form class="form" id="form">
+          <h3 class="form__title">Login</h3>
+          <div class="container">
+            <input class="container__input" type="text" id="username" name="username" value="" required>
+            <label id="userLabel" for="username" class="container__label">Nombre Usuario</label>
+          </div>
+          <div class="container">
+            <input class="container__input" type="password" id="pass" name="password" value="" required>
+            <label id="passLabel" for="pass" class="container__label">Contraseña</label>
+          </div>
+          <button class="form__submit" id="submit" type="button" value="submit">Enviar</button>
+        </form>
+      </div>
+ 
+                      <!-- Social sigenos Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Siguenos</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #39569E;">
+                                <i class="fab fa-facebook-f text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Fans</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #52AAF4;">
+                                <i class="fab fa-twitter text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Seguidores</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #0185AE;">
+                                <i class="fab fa-linkedin-in text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Conectados</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #C8359D;">
+                                <i class="fab fa-instagram text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 participantes</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #DC472E;">
+                                <i class="fab fa-youtube text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Subscriptores</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none" style="background: #055570;">
+                                <i class="fab fa-vimeo-v text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Asistentes</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Social sigenos End -->
+
+                    <!-- Comienso de boletin informativo -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Boletin informativo</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <p>Aliqu justo et labore at eirmod justo sea erat diam dolor diam vero kasd</p>
+                            <div class="input-group mb-2" style="width: 100%;">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary font-weight-bold px-3">Inscribase</button>
+                                </div>
+                            </div>
+                            <small>Lorem ipsum dolor sit amet elit</small>
+                        </div>
+                    </div>
+                    <!-- Fin de boletin informativo -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
+        <div class="row py-4">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Ponerse en contacto</h5>
+                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>1234 Zona Norte pascal españa</p>
+                <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+012 765342523</p>
+                <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>CinePeliculas@gmail.com</p>
+                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">siguenos</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Estrenos de peliculas</h5>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Carnash</a>
+                        <a class="text-body" href=""><small>22 abril 2022</small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Avengers 5</a>
+                        <a class="text-body" href=""><small>25 enero, 2023</small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+                </div>
+                <div class="">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Flash Gordon</a>
+                        <a class="text-body" href=""><small>30 Abril 2023 </small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categorias</h5>
+                <div class="m-n1">
+                    <a href="" class="btn btn-sm btn-secondary m-1">Ficcion</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Terror</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Comedia</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Divercion</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Animes</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Series</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Ciencia</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Peliculas</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Entretenimiento</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Viajes</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Estilo</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Politica</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Corporacion</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Cine</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Carteleras</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Fullback</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Educacion</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">ciencia</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">comedia</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Ficcion</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Flickr Photos</h5>
+                <div class="row">
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-2.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-3.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-5.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <p class="m-0 text-center">&copy; <a href="#">CinePeliculas</a>. Todos los derechos reservados. 
+		
+		<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+		Design by <a href="https://youtu.be/wcbGcJ_HFtI">Vea las mejores peliculas</a></p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+</html>
