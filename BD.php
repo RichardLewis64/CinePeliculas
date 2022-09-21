@@ -1,24 +1,27 @@
 <?php
-// database connection code
-// $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
+$dbhost="local host";
+$dbUser="root";
+$dbpass="";
+$dbname="registrousuario";
 
-$con = mysqli_connect('localhost', 'root', '','db_connect');
-
-// get the post records
-$txtName = $_POST['Nombre'];
-$txtEmail = $_POST['Gmail'];
-$txtPhone = $_POST['contraseña'];
-$txtMessage = $_POST['Mensaje'];
-
-// database insert SQL code
-$sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
-
-// ingrese en base de datos
-$rs = mysqli_query($con, $sql);
-
-if($rs)
+$connect= mysqli_connect ($dbhost,$dbUser,$dbpass,$dbname);
+if (!$connect)
 {
-	echo "Contact Records Inserted";
+	die("no hay conexion:".mysqli_connect_error());
 }
+$nombre=$_POST("Nombre Usuario");
+$contraseña=$_POST("Contraseña");
+$Gmail=$_POST("CorreoElectronico");
 
+$query=mysqli_query($connect,"SELECT*FROM datos WHERE Usuario='".$nombre."'and password = '".$contraseña."'");
+$nr= mysqli_num_rows($query);
+
+if($nr==1)
+{
+	echo "Bienvenido:".$nombre;
+}
+else if($nr==0)
+{
+	echo "no ingreso correctamente sus datos";
+}
 ?>
