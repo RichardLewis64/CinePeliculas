@@ -199,7 +199,7 @@ img {
 }
 
 svg {
-  overflow: hidden;
+  overflow: auto;
   vertical-align: middle;
 }
 
